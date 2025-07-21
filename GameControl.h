@@ -7,8 +7,8 @@ class GameControl
 {
  private:
 	//resolução da janela
-	int Larg = 92;
-	int Alt = 52;
+	 int Larg;
+	 int Alt;
 	//controlador do fluxo declaração
 	void Controlador();
  public:

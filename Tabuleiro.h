@@ -9,6 +9,8 @@ class Tabuleiro
  private:
 	std::vector <std::vector<int>> Celulas;
 	void GerarTab(int Largg, int Altt);
+	bool DFSVef();
+
  public:
 	//ajuste automatico da resolução
 	void AjusteAltResolução(int Largg, int Altt);
