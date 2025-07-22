@@ -1,14 +1,15 @@
 #pragma once
 #include "Raylib.h"
 #include "Tabuleiro.h"
-
+#include <cstdlib>
+#include <ctime>
 
 class GameControl
 {
  private:
 	//resolução da janela
-	 int Larg;
-	 int Alt;
+	 int Larg = 96;
+	 int Alt = 52;
 	//controlador do fluxo declaração
 	void Controlador();
  public:

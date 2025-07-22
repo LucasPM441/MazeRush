@@ -1,15 +1,14 @@
 #pragma once
 #include "GameControl.h"
 #include <vector>
-#include <cstdlib>
-#include <ctime>
+
 
 class Tabuleiro
 {
  private:
 	std::vector <std::vector<int>> Celulas;
 	void GerarTab(int Largg, int Altt);
-	bool DFSVef();
+	bool DFSVef(int StartX, int StartY, int ArrivalX, int ArrivalY, const std::vector<std::vector<int>>& CCelulas, std::vector<std::vector<bool>>& Visitado);
 
  public:
 	//ajuste automatico da resolução
