@@ -1,6 +1,8 @@
 #pragma once
 #include "Raylib.h"
 #include "Tabuleiro.h"
+#include "character.h"
+#include "vector"
 #include <cstdlib>
 #include <ctime>
 

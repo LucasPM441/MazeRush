@@ -16,6 +16,10 @@ class Tabuleiro
 	//responsavel por mostrar e atualizar o labirinto na tela
 	void GrafoLab(int Largg, int Altt);
 
+	const std::vector<std::vector<int>>& obterCelulas() const {
+		return Celulas;
+	}
+
 	Tabuleiro(int x, int y)
 	{
 		AjusteAltResolução(x, y);
