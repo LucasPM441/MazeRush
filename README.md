@@ -22,7 +22,7 @@ O jogo foi desenvolvido utilizando C++ e a biblioteca Raylib para gráficos.
 
 ## Download
 
-[Baixe aqui (versão Windows)](https://github.com/LucasPM441/MazeRush/releases/download/v1.0/MazeRush.1.0.zip)
+[Baixe aqui (versão Windows)](https://www.mediafire.com/file/ke7xpgpt7tzz51n/MazeRushV1.0.zip/file)
 
 ---
 
