@@ -12,6 +12,7 @@ class GameControl
 	//resolução da janela
 	 int Larg = 96;
 	 int Alt = 52;
+
 	//controlador do fluxo declaração
 	void Controlador();
  public:

@@ -1,7 +1,7 @@
 #include "GameControl.h"
 
 //FPS
-int FPS = 15;
+int FPS = 10;
 
 //controlador do fluxo escopo
 void GameControl::Controlador()
@@ -18,10 +18,12 @@ void GameControl::Controlador()
 	while (!WindowShouldClose())
 	{
 		BeginDrawing();
+
 		ClearBackground(GRAY);
 		Tab.GrafoLab(Larg, Alt);
-		CubeB.PersonagemDef();
+		
 		CubeB.PersonagemMov(lab);
+		CubeB.PersonagemDef(Larg, Alt);
 		EndDrawing();
 	}
 	CloseWindow();

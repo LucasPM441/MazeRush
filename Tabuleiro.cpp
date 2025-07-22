@@ -69,7 +69,7 @@ void Tabuleiro::GerarTab(int Largg, int Altt)
 		Celulas[1][0] = 0;
 		Celulas[Largg - 2][Altt - 1] = 0;
 		Celulas[1][1] = 0;
-		Celulas[Largg - 2][Altt - 2] = 0;
+		Celulas[Largg - 2][Altt - 1] = 0;
 
 		Resolvido = DFSVef(startX, startY, FimX, FimY, Celulas, Visitado);
 	}
