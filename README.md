@@ -1,27 +1,44 @@
 # MazeRush
 
-MazeRush é um minigame de labirinto simples feito em C++ com Raylib. O jogador deve percorrer um labirinto gerado aleatoriamente até encontrar a saída.
+Minigame de labirinto em C++ onde o jogador deve encontrar a saída.
 
-## 🎮 Funcionalidades
+---
 
-- Geração de labirinto aleatório (com densidade ajustável)
-- Verificação automática de caminho (DFS)
-- Movimentação via teclado (`W`, `A`, `S`, `D`)
-- Verificação de vitória ao alcançar o ponto final
+## Descrição
 
-## ✅ Controles
+MazeRush é um jogo simples e prático que gera labirintos aleatórios. Você controla um personagem que deve navegar pelo labirinto e alcançar a saída para vencer.
 
-- `W` - Mover para cima  
-- `S` - Mover para baixo  
-- `A` - Mover para a esquerda  
-- `D` - Mover para a direita  
+O jogo foi desenvolvido utilizando C++ e a biblioteca Raylib para gráficos.
 
-## 📦 Requisitos
+---
 
-- [Raylib](https://www.raylib.com/) instalada e configurada
-- Compilador C++ compatível com C++11 ou superior
+## Como jogar
 
-## 🧱 Compilação (Windows use MinGW)
+- Use as teclas W, A, S, D para movimentar o personagem.
+- O objetivo é encontrar o caminho até a saída do labirinto.
+- O labirinto é gerado aleatoriamente a cada partida.
 
-```bash
-g++ main.cpp GameControl.cpp Tabuleiro.cpp Character.cpp -o MazeRush -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
+---
+
+## Download
+
+[Baixe aqui (versão Windows)](https://github.com/LucasPM441/MazeRush/releases/download/v1.0/MazeRush.1.0.zip)
+
+---
+
+## Tecnologias
+
+- C++
+- Raylib
+
+---
+
+## Contato
+
+LucasPM441 - [GitHub](https://github.com/LucasPM441)
+
+---
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT.
